@@ -53,8 +53,7 @@ a {
   background-color: #f5f3ea;
 }
 .header-container {
-  padding-top: 25px;
-  padding-bottom: 27px;
+  padding: 16px 0;
 }
 
 .nav-list {
