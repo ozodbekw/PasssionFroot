@@ -117,11 +117,11 @@ a {
 .select-product {
   position: absolute;
   left: 43px;
-  bottom: 152px;
+  top: 335px;
 }
 .workflow {
   position: absolute;
-  bottom: 0;
+  top: 441px;
   right: 43px;
 }
 .hero__title {
@@ -143,5 +143,31 @@ a {
   margin-right: auto;
   text-align: left;
 }
-.access-btn {
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto";
+  align-items: center;
+  margin-bottom: 93px;
+}
+.service__title {
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 100.8px;
+  letter-spacing: 0.9599999785423279px;
+  color: #1b1c1d;
+  margin-left: 115px;
+}
+.service__list {
+  margin-top: 176px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+.service__list-item {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64.4px;
 }
