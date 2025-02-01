@@ -171,3 +171,66 @@ a {
   font-weight: 400;
   line-height: 64.4px;
 }
+
+.experience {
+  background-color: #f5f3ea;
+}
+.exoerience__container {
+}
+
+.experience__top {
+  border-bottom: 2px solid #43423d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.experience-text {
+  padding-bottom: 240px;
+  padding-top: 248px;
+}
+.experience__title {
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0.6000000238418579px;
+  width: 527px;
+  margin-bottom: 28px;
+}
+.experience__list {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  justify-content: center;
+}
+.experience__list-item {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  span {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.experience-text-dislike {
+  background-color: #eda6e6;
+}
+
+.experience-text-like {
+  background-color: #66cca0;
+}
+
+.experience__bottom {
+  display: flex;
+  justify-content: space-between;
+}
