@@ -41,6 +41,13 @@ a {
   color: red;
 }
 
+button {
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+  cursor: pointer;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -175,8 +182,6 @@ a {
 .experience {
   background-color: #f5f3ea;
 }
-.exoerience__container {
-}
 
 .experience__top {
   border-bottom: 2px solid #43423d;
@@ -233,4 +238,43 @@ a {
 .experience__bottom {
   display: flex;
   justify-content: space-between;
+}
+
+/* gettools */
+
+.getTools {
+  text-align: center;
+}
+.getTools__title {
+  font-family: "Roboto";
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0.6000000238418579px;
+  color: #1b1c1d;
+}
+.getTools__btn-wrapper {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.getTools__btn {
+  border: 2px solid #1b1c1d;
+  border-radius: 4px;
+  padding: 10px 28px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #1b1c1d;
+}
+.getTools-card {
+  margin-top: 46px;
+  background-color: #a8ebff;
+  width: 1200px;
+  height: 736px;
+  border-radius: 16px 16px 0px 0px;
 }
