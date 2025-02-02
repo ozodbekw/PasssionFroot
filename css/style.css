@@ -181,6 +181,7 @@ button {
 
 .experience {
   background-color: #f5f3ea;
+  margin-bottom: 10px;
 }
 
 .experience__top {
@@ -252,6 +253,7 @@ button {
   line-height: 46px;
   letter-spacing: 0.6000000238418579px;
   color: #1b1c1d;
+  width: 218px;
 }
 .getTools__btn-wrapper {
   display: flex;
@@ -277,4 +279,66 @@ button {
   width: 1200px;
   height: 736px;
   border-radius: 16px 16px 0px 0px;
+  display: flex;
+  align-items: center;
+  gap: 94px;
+  text-align: left;
+  padding-left: 64px;
+}
+
+.getTools-card__title {
+  font-family: Roboto;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0.6000000238418579px;
+  color: #1b1c1d;
+  margin-bottom: 18px;
+}
+
+.getTools-card__description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31px;
+  color: #1b1c1d;
+  margin-bottom: 32px;
+  width: 541px;
+}
+
+.getTools-card__button {
+  border: 2px solid #000000;
+  border-radius: 6px;
+  box-shadow: 2px 2px 0px 0px #1b1c1d;
+  padding: 3px 28px;
+  background-color: #f5f3ea;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.getTools-card__img {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.getTools-card__passionfroot-image {
+  box-shadow: 2px 2px 0px 0px #1b1c1d;
+  border: 2px solid #1b1c1d;
+  width: 362px;
+  height: 193px;
+  border-radius: 8px;
+}
+.getTools-card__filtered-image {
+  box-shadow: 2px 2px 0px 0px #1b1c1d;
+  border: 2px solid #1b1c1d;
+  width: 362px;
+  height: 356px;
+  border-radius: 8px;
+}
+.getTools-card__creators-image {
+  box-shadow: 2px 2px 0px 0px #1b1c1d;
+  border: 2px solid #1b1c1d;
+  width: 362px;
+  height: 103px;
+  border-radius: 8px;
 }
