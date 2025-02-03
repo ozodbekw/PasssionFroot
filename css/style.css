@@ -342,3 +342,73 @@ button {
   height: 103px;
   border-radius: 8px;
 }
+
+/* Greencards */
+.green-cards {
+  margin-top: 108px;
+}
+.green-cards__top {
+  background-color: #66cca0;
+  width: 1200px;
+  height: 736px;
+  border-radius: 16px 16px 0px 0px;
+  display: flex;
+  align-items: center;
+  gap: 63px;
+  padding: 64px;
+}
+.green-cards__top-title {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0.6000000238418579px;
+  width: 557px;
+  margin-bottom: 15px;
+}
+.green-cards__top-description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31px;
+  color: #1b1c1d;
+  width: 546px;
+}
+.green-card__top-img {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.green-card__top-img-potion {
+  width: 300px;
+  height: 203px;
+  border-radius: 12px 4px 12px 12px;
+  border: 2px solid #1b1c1d;
+  box-shadow: 2px 2px 0px 0px #1b1c1d;
+  margin-left: 92px;
+}
+.green-card__top-img-invoice {
+  border: 2px solid #1b1c1d;
+  box-shadow: 2px 2px 0px 0px #1b1c1d;
+  width: 300px;
+  height: 121px;
+  border-radius: 4px 12px 12px 12px;
+}
+.green-card__top-img-4xsponser {
+  width: 300px;
+  height: 157px;
+  border-radius: 12px 4px 12px 12px;
+  border: 2px solid #1b1c1d;
+  box-shadow: 2px 2px 0px 0px #1b1c1d;
+  margin-left: 92px;
+}
+.green-card__top-img-dan-shared {
+  box-shadow: 2px 2px 0px 0px #1b1c1d;
+  width: 300px;
+  height: 98px;
+  border-radius: 12px 4px 12px 12px;
+  margin-left: 92px;
+}
+.green-cards__bottom {
+  background-color: #66cca0;
+  border-radius: 0px 0px 16px 16px;
+}
