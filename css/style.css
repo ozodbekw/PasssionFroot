@@ -358,7 +358,7 @@ button {
   padding: 64px;
 }
 .green-cards__top-title {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 40px;
   font-weight: 400;
   line-height: 46px;
@@ -409,6 +409,60 @@ button {
   margin-left: 92px;
 }
 .green-cards__bottom {
+  margin-top: 50px;
+  margin-bottom: 105px;
   background-color: #66cca0;
   border-radius: 0px 0px 16px 16px;
+  display: flex;
+  gap: 72px;
+  align-items: center;
+  padding: 64px;
+  width: 1200px;
+  height: 736px;
+}
+
+.green-cards__bottom-title {
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  margin-bottom: 18px;
+}
+.green-cards__bottom-describtion {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31px;
+  width: 533px;
+}
+.green-cards__bottom-image {
+  height: 342px;
+  width: 425px;
+  position: relative;
+  img {
+    position: absolute;
+  }
+}
+.green-cards__bottom-image__4xsponser {
+  top: 25px;
+  left: 0;
+  width: 160px;
+  height: 155px;
+}
+.green-cards__bottom-image__cashflow {
+  left: 179px;
+  top: 0;
+  width: 144px;
+  height: 89px;
+}
+.green-cards__bottom-image__booking {
+  width: 144px;
+  height: 89px;
+  left: 366px;
+  top: 34px;
+}
+.green-cards__bottom-image__diagram {
+  width: 192px;
+  height: 194px;
+  left: 166px;
+  top: 148px;
 }
