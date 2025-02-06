@@ -487,8 +487,7 @@ button {
 .user__hero {
   display: flex;
 }
-.user__hero-text {
-}
+
 .user__hero-describtion {
   margin-top: 103px;
   font-family: "Roboto";
@@ -514,5 +513,20 @@ button {
   font-weight: 400;
   line-height: 31px;
 }
-.user__hero-img {
+/* Content section */
+.content {
+}
+.content__top {
+  margin-top: 130px;
+  background-color: #ff9966;
+  width: 100%;
+  max-width: 1541px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content__bottom {
+}
+.container {
 }
