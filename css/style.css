@@ -633,3 +633,17 @@ button {
   padding-bottom: 32.5px;
   border-bottom: 1px solid rgba(67, 66, 61, 1);
 }
+
+.footer {
+  margin-top: 147px;
+  padding-bottom: 146px;
+  text-align: center;
+}
+.footer__title {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0.6px;
+  margin-bottom: 29px;
+}
